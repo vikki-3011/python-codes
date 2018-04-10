@@ -1,0 +1,8 @@
+list=['guvi ']
+def hi(x):
+  n=int(input('enter a value'))
+  print(x*n)
+def bye(fun,list):
+  for all in list:
+    fun(all)
+bye(hi,list)
